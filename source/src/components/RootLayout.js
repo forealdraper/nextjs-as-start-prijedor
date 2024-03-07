@@ -7,12 +7,16 @@ const RootLayout = ({ children }) => {
 
     return (
         <>
-            <Topbar />
-            <Navbar />
+            <header>
+                <Topbar />
+                <Navbar />
+            </header>
             <main>
                 {children}
             </main>
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>
             <BackToTop />
         </>
     );

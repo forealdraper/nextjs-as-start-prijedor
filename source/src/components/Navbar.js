@@ -1,10 +1,50 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import useCheckDevice from '@/custom-hooks/CheckDevice'
+import Link from 'next/link'
+import Wrap from './Wrap'
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
+  const checkDevice = useCheckDevice();
+  const [windowWidth, setWindowWidth] = useState(1280);
+  const [isActive, setIsActive] = useState(false);
+  const toggleNavbar = () => {
+    setIsActive(prev => !prev);
+  }
+
+  useEffect(() => {
+    setWindowWidth(prev => checkDevice);
+    if (checkDevice >= 1280) {
+      setIsActive(true);
+    }
+    if (isActive && windowWidth < 1280) {
+      document.body.style.overflowY = 'hidden';
+    } else {
+      document.body.style.overflowY = 'auto';
+    }
+  }, [checkDevice, isActive])
+
   return (
-    <div>
-      navbar
-    </div>
+    <Wrap extendClassName={`flex flex-row gap-x-20 justify-between py-8 relative`}>
+      <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200} ></Image>
+      {windowWidth < 1280 && (
+        <button type="button" onClick={toggleNavbar}>
+          <FontAwesomeIcon icon={faBars} size="2xl" />
+        </button>
+      )}
+      <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?
+        "flex flex-row gap-x-10 items-center" :
+        `absolute top-[140px] left-0 flex flex-col z-50 w-full mx-0 px-0 bg-white h-[100vh] ${!isActive ? 'translate-x-full' : 'translate-x-0'}`}`}>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>VOZNI PARK</Link>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>ČESTA PITANJA</Link>
+        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>KONTAKT</Link>
+      </nav>
+    </Wrap>
   )
 }
 
