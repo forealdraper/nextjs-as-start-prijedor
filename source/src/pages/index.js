@@ -1,8 +1,9 @@
+import InfoBar from "@/components/home/InfoBar";
 
 export default function Home() {
   return (
-    <div className="mt-20">
-      home
-    </div>
+    <>
+      <InfoBar />
+    </>
   );
 }

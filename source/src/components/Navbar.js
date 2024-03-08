@@ -37,12 +37,12 @@ const Navbar = () => {
       <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?
         "flex flex-row gap-x-10 items-center" :
         `absolute top-[140px] left-0 flex flex-col z-50 w-full mx-0 px-0 bg-white h-[100vh] ${!isActive ? 'translate-x-full' : 'translate-x-0'}`}`}>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>VOZNI PARK</Link>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>ČESTA PITANJA</Link>
-        <Link href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>KONTAKT</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/o-nama" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/blog-posts" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/vozni-park" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>VOZNI PARK</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/frequently-asked-questions" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>ČESTA PITANJA</Link>
+        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/kontakt" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>KONTAKT</Link>
       </nav>
     </Wrap>
   )

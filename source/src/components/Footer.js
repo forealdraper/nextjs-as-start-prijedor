@@ -16,7 +16,7 @@ const Footer = () => {
     <div style={{ backgroundImage: `url('/tt-foter-bg.jpg')` }}>
       <Wrap extendClassName={"flex flex-1 flex-col lg:flex-row justify-between gap-y-8 py-8 text-tertiary text-center lg:text-left"}>
         <div>
-          <Image src="/autofinal.png" className="w-full" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200}></Image>
+          <Image src="/autofinal.png" className="w-full hover:cursor-pointer" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200}></Image>
         </div>
         <div className="flex flex-col lg:flex-row lg:justify-around lg:gap-x-14 items-center lg:items-start gap-y-4 font-bold">
           <div>
@@ -35,11 +35,11 @@ const Footer = () => {
         </div>
         <div className='flex flex-col justify-around items-center lg:items-end text-white opacity-90'>
           <Link href="/" className="hover:text-tertiary transition duration-300">Početna</Link>
-          <Link href="/" className="hover:text-tertiary transition duration-300">O Nama</Link>
-          <Link href="/" className="hover:text-tertiary transition duration-300">Blog</Link>
-          <Link href="/" className="hover:text-tertiary transition duration-300">Vozni park</Link>
-          <Link href="/" className="hover:text-tertiary transition duration-300">Česta pitanja</Link>
-          <Link href="/" className="hover:text-tertiary transition duration-300">Kontakt</Link>
+          <Link href="/o-nama" className="hover:text-tertiary transition duration-300">O Nama</Link>
+          <Link href="/blog-posts" className="hover:text-tertiary transition duration-300">Blog</Link>
+          <Link href="/vozni-park" className="hover:text-tertiary transition duration-300">Vozni park</Link>
+          <Link href="/frequently-asked-questions" className="hover:text-tertiary transition duration-300">Česta pitanja</Link>
+          <Link href="/kontakt" className="hover:text-tertiary transition duration-300">Kontakt</Link>
         </div>
       </Wrap>
       <Wrap extendClassName="text-center lg:text-left text-lg text-tertiary pb-8">
