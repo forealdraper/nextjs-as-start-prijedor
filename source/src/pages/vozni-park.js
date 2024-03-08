@@ -12,22 +12,22 @@ const Vozni_Park = () => {
         <div className="flex justify-center items-center">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-8 lg:mt-16">
             <div className="flex justify-center items-center mb-4">
-              <Image src="/motor2-644x483.png" width={640} height={480}></Image>
+              <Image src="/motor2-644x483.png" width={640} height={480} alt="Motor2"></Image>
             </div>
             <div className="flex justify-center items-center mb-4">
-              <Image src="/auta4-644x483.jpg" width={640} height={480}></Image>
+              <Image src="/auta4-644x483.jpg" width={640} height={480} alt="Car4"></Image>
             </div>
             <div className="flex justify-center items-center mb-4">
-              <Image src="/1-644x483.jpg" width={640} height={480}></Image>
+              <Image src="/1-644x483.jpg" width={640} height={480} alt="Car1"></Image>
             </div>
             <div className="flex justify-center items-center mb-4">
-              <Image src="/voznipark3-768x768.jpg" width={640} height={480}></Image>
+              <Image src="/voznipark3-768x768.jpg" width={640} height={480} alt="Voznipark3"></Image>
             </div>
             <div className="flex justify-center items-center mb-4">
-              <Image src="/voznipark4-644x483.jpg" width={640} height={480}></Image>
+              <Image src="/voznipark4-644x483.jpg" width={640} height={480} alt="Voznipark4"></Image>
             </div>
             <div className="flex justify-center items-center mb-4">
-              <Image src="/truck.jpg" width={640} height={480}></Image>
+              <Image src="/truck.jpg" width={640} height={480} alt="Truck"></Image>
             </div>
           </div>
         </div>
