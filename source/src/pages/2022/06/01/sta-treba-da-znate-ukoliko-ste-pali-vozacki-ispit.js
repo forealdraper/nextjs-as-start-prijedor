@@ -1,10 +1,22 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import BlogPost from '@/components/blog/BlogPost'
+import Head from 'next/head'
 
 const Page = () => {
   return (
     <>
+      <Head>
+        <title>ŠTA TREBA DA ZNATE UKOLIKO STE PALI VOZAČKI ISPIT? - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <link rel="canonical" href="https://asstartprijedor.com/2022/06/01/sta-treba-da-znate-ukoliko-ste-pali-vozacki-ispit/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index"></meta>
+        <meta property="og:title" content="ŠTA TREBA DA ZNATE UKOLIKO STE PALI VOZAČKI ISPIT? - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:description" content="Nije nimalo prijatno ukoliko na završnom testu vožnje ne prođete onako kako ste očekivali. Svakako Vaš neuspjeh ne treba da bude razlog da na samom kraju odustanete od truda, rada, borbe i novca uloženih da bi konačno dobili vozačku dozvolu. Niste ni prvi ni poslednji i potrebno je da još više usavršite sebe, ostanete smireni [&hellip;]" />
+        <meta property="og:url" content="https://asstartprijedor.com/2022/06/01/sta-treba-da-znate-ukoliko-ste-pali-vozacki-ispit/" />
+        <meta property="og:type" content="article" />
+      </Head>
+
       <div className="border-t-2 border-secondary w-full"></div>
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">ŠTA TREBA DA ZNATE UKOLIKO STE PALI VOZAČKI ISPIT?</h1>

@@ -31,7 +31,7 @@ const Navbar = () => {
       <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200} ></Image>
       {windowWidth < 1280 && (
         <button type="button" onClick={toggleNavbar}>
-          <FontAwesomeIcon icon={faBars} size="2xl" />
+          <FontAwesomeIcon icon={faBars} className="w-8 pr-2" />
         </button>
       )}
       <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?

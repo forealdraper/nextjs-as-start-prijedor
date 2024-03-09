@@ -1,10 +1,22 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import BlogPost from '@/components/blog/BlogPost'
+import Head from 'next/head'
 
 const Page = () => {
   return (
     <>
+      <Head>
+        <title>3 SAVJETA ZA BEZBEDNO PUTOVANJE AUTOMOBILOM￼ - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <link rel="canonical" href="https://asstartprijedor.com/2022/07/11/3-savjeta-za-bezbedno-putovanje-automobilom/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index"></meta>
+        <meta property="og:title" content="3 SAVJETA ZA BEZBEDNO PUTOVANJE AUTOMOBILOM￼ - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:description" content="Nakon uspješno završene&nbsp;obuke u auto školi, većina razmišlja kako će samostalno krenuti na putovanje sa svojim automobilom. Ukoliko se spremate za ljetovanje ili planirate putovanje sa članovima porodice jasno je zašto istražujete ovu temu i potpuno je normalno da osjećate odgovornosti i da želite da vožnja bude maksimalno bezbjedna. Mi smo uz vas i zato [&hellip;]" />
+        <meta property="og:url" content="https://asstartprijedor.com/2022/07/11/3-savjeta-za-bezbedno-putovanje-automobilom/" />
+        <meta property="og:type" content="article" />
+      </Head>
+
       <div className="border-t-2 border-secondary w-full"></div>
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">3 SAVJETA ZA BEZBEDNO PUTOVANJE AUTOMOBILOM</h1>

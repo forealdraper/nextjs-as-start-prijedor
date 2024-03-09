@@ -51,7 +51,7 @@ const Topbar = () => {
             {windowWidth < 1280 && (
                 <Wrap extendClassName="text-center py-3 bg-primary text-white">
                     <button type="button" onClick={toggleTopbar}>
-                        <FontAwesomeIcon icon={faChevronDown} />
+                        <FontAwesomeIcon icon={faChevronDown} className="w-4" />
                     </button>
                 </Wrap>
             )}

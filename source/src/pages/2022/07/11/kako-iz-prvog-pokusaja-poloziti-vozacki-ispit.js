@@ -1,10 +1,22 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import BlogPost from '@/components/blog/BlogPost'
+import Head from 'next/head'
 
 const Page = () => {
     return (
         <>
+            <Head>
+                <title>KAKO IZ PRVOG POKUŠAJA POLOŽITI VOZAČKI ISPIT - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+                <link rel="canonical" href="https://asstartprijedor.com/2022/07/11/kako-iz-prvog-pokusaja-poloziti-vozacki-ispit/" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="index"></meta>
+                <meta property="og:title" content="KAKO IZ PRVOG POKUŠAJA POLOŽITI VOZAČKI ISPIT - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+                <meta property="og:description" content="Dobijanje vozačke dozvole je uzbudljiv poduhvat i iskustvo koje mijenja život, ali je i velika odgovornost. Polaganje vozačkog ispita može biti malo stresno, ali postoje načini na koje možete da se pripremite i koji će vam pomoći da prođete odlično test i to u prvom pokušaju . Evo nekoliko korisnih savjeta koji će znatno olakšati [&hellip;]" />
+                <meta property="og:url" content="https://asstartprijedor.com/2022/07/11/kako-iz-prvog-pokusaja-poloziti-vozacki-ispit/" />
+                <meta property="og:type" content="article" />
+            </Head>
+
             <div className="border-t-2 border-secondary w-full"></div>
             <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
                 <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">KAKO IZ PRVOG POKUŠAJA POLOŽITI VOZAČKI ISPIT</h1>

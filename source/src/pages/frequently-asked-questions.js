@@ -1,10 +1,21 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import Accordion from '@/components/Accordion'
+import Head from 'next/head'
 
 const Frequently_Asked_Questions = () => {
   return (
     <>
+      <Head>
+        <title>Česta Pitanja - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <link rel="canonical" href="https://asstartprijedor.com/frequently-asked-questions/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index"></meta>
+        <meta property="og:title" content="Česta Pitanja - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:description" content="Česta Pitanja Koliko traje ukupan proces osposobljavanja za vozačku dozvolu B kategorije? Proces osposobljavanja za vozačku dozvolu B kategorije od dana upisa u auto školu do izlaska na ispit iz vožnje traje 2 mjeseca. Koliko traju predavanja iz teoretske nastave? Predavanja iz teoretske nastave traju 10 radnih dana, odnosno 28 nastavnih časova za B kategoriju. [&hellip;]" />
+        <meta property="og:url" content="https://asstartprijedor.com/frequently-asked-questions/" />
+      </Head>
+
       <div className="border-t-2 border-secondary w-full"></div>
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] font-bold text-center mb-8 lg:mb-16">Česta Pitanja</h1>

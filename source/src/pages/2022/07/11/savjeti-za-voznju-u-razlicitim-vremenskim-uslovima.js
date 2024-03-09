@@ -1,10 +1,22 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import BlogPost from '@/components/blog/BlogPost'
+import Head from 'next/head'
 
 const Page = () => {
   return (
     <>
+      <Head>
+        <title>SAVJETI ZA VOŽNJU U RAZLIČITIM VREMENSKIM USLOVIMA - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <link rel="canonical" href="https://asstartprijedor.com/2022/07/11/savjeti-za-voznju-u-razlicitim-vremenskim-uslovima/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index"></meta>
+        <meta property="og:title" content="SAVJETI ZA VOŽNJU U RAZLIČITIM VREMENSKIM USLOVIMA - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:description" content="Uspješno ste položili vozački ispit i sad imate slobodu da se krećete na četiri točka sa svojom vozačkom dozvolom. Ako za vrijeme obuke niste imali priliku da vozite po kiši, snijegu i magli, a desiće se da ćete morati jednom i to da probate i da se usavršite, verovatno Vam neće biti svejedno. Čak i [&hellip;]" />
+        <meta property="og:url" content="https://asstartprijedor.com/2022/07/11/savjeti-za-voznju-u-razlicitim-vremenskim-uslovima/" />
+        <meta property="og:type" content="article" />
+      </Head>
+
       <div className="border-t-2 border-secondary w-full"></div>
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">SAVJETI ZA VOŽNJU U RAZLIČITIM VREMENSKIM USLOVIMA</h1>

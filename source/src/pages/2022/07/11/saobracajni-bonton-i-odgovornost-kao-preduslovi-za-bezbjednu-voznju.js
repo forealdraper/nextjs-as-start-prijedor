@@ -1,10 +1,22 @@
 import React from 'react'
 import Wrap from '@/components/Wrap'
 import BlogPost from '@/components/blog/BlogPost'
+import Head from 'next/head'
 
 const Page = () => {
   return (
     <>
+      <Head>
+        <title>SAOBRAĆAJNI BONTON I ODGOVORNOST KAO PREDUSLOVI ZA BEZBJEDNU VOŽNJU - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <link rel="canonical" href="https://asstartprijedor.com/2022/07/11/saobracajni-bonton-i-odgovornost-kao-preduslovi-za-bezbjednu-voznju/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index"></meta>
+        <meta property="og:title" content="SAOBRAĆAJNI BONTON I ODGOVORNOST KAO PREDUSLOVI ZA BEZBJEDNU VOŽNJU - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:description" content="Svi smo svjesni činjenice da niko od nas nije savršen vozač. Koliko god bilo vozačko iskustvo za nama, postoji “onaj jedan” trenutak nepažnje prema drugim učesnicima u saobraćaju koji se svakom vozaču bar jednom desio. Bez obzira da li su kratka distanca između dva vozila, duga svijetla ili preticanje rezultat nervoze ili pada koncentracije, imajte [&hellip;]" />
+        <meta property="og:url" content="https://asstartprijedor.com/2022/07/11/saobracajni-bonton-i-odgovornost-kao-preduslovi-za-bezbjednu-voznju/" />
+        <meta property="og:type" content="article" />
+      </Head>
+
       <div className="border-t-2 border-secondary w-full"></div>
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">SAOBRAĆAJNI BONTON I ODGOVORNOST KAO PREDUSLOVI ZA BEZBJEDNU VOŽNJU</h1>
