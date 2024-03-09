@@ -27,8 +27,8 @@ const Navbar = () => {
   }, [checkDevice, isActive])
 
   return (
-    <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative border-2 border-red-600`}>
-      <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200} ></Image>
+    <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative`}>
+      <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 150} height={windowWidth > 576 ? 340 : 200} ></Image>
       {windowWidth < 1280 && (
         <button type="button" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={faBars} className="w-8 pr-2" />
@@ -36,7 +36,7 @@ const Navbar = () => {
       )}
       <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?
         "flex flex-row gap-x-10 items-center" :
-        `absolute top-[140px] left-0 flex flex-col z-50 w-full mx-0 px-0 bg-white h-[100vh] ${!isActive ? 'translate-x-full' : 'translate-x-0'}`}`}>
+        `absolute top-[140px] left-0 flex flex-col z-50 mx-0 px-0 bg-white h-[100vh] w-full ${!isActive ? 'translate-x-full ' : 'translate-x-0 '}`}`}>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/o-nama" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/blog-posts" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
