@@ -41,8 +41,8 @@ const Page = () => {
             <h3 className="pl-8 font-bold text-lg">1. NE PROLAZITE NAGLO KROZ LOKVE U NASELJENIM MJESTIMA</h3>
             <p>Za bezbjednu vožnju potrebno je osim ispravnog automobila, biti veoma svjestan sredine kroz koju se vozi. Tako na primjer, ukoliko ste u naseljenom dijelu grada u kome ima dosta pešaka, prolaskom kroz lokvu namjerno ili neoprezno je definitivno bezobzirno ponašanje.</p>
             <p>Da je to u nekim djelovima svijeta zakonom definisano kao bahata vožnja, govori to da je u Velikoj Britaniji za ovakav slučaj vozači bi se obično suočili sa kaznom od 100 funti fiksne kazne i tri boda na svojoj dozvoli, ali bi kazna mogla da poraste na 5.000 funti ako slučaj dođe na sud.</p>
-            <h3 className="pl-8 font-bold text-lg">2. "ABLENDOVANJE"</h3>
-            <p>“Ablendovanje” ili tzv “blicanje” predstavlja najpopularniji način upozoravanja dolazećeg učesnika u saobraćaju da je patrola policije u blizini. Iako se ovaj način “komunikacije” posebno među vozačima na Balkanu smatra solidarnošću, on može da dovede i do zabune ili čak zastrašivanja.</p>
+            <h3 className="pl-8 font-bold text-lg">2. ABLENDOVANJE</h3>
+            <p>“Ablendovanje” ili tzv blicanje predstavlja najpopularniji način upozoravanja dolazećeg učesnika u saobraćaju da je patrola policije u blizini. Iako se ovaj način komunikacije posebno među vozačima na Balkanu smatra solidarnošću, on može da dovede i do zabune ili čak zastrašivanja.</p>
             <p>Iako možda mislite da samo pomažete, ako drugi vozač pažljivo ne proveri druge opasnosti na putu, ablendovanje može dovesti do nezgode ili nesreće na putu.</p>
             <h3 className="pl-8 font-bold text-lg">3. OČISTITE SVOJ AUTOMOBIL</h3>
             <p>Još jedna obaveza prije nego krenete u saobraćaj, je da dobro provjerite u kakvom stanju je vaš automobil. Vaši prozori, vjetrobrani, tablice i signalizacija moraju biti potpuno čisti i vidljivi drugim učesnicima u saobraćaju.</p>
