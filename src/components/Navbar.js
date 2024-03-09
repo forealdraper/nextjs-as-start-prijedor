@@ -37,7 +37,7 @@ const Navbar = () => {
       )}
       <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?
         "flex flex-row gap-x-10 items-center" :
-        `absolute top-[140px] left-0 flex flex-col z-50 mx-0 px-0 bg-white h-[100vh] w-full ${!isActive ? 'translate-x-full ' : 'translate-x-0 '}`}`}>
+        `absolute top-[140px] left-0 flex flex-col z-50 mx-0 px-0 overflow-hidden bg-white h-[100vh] w-full ${!isActive ? 'translate-x-full ' : 'translate-x-0 '}`}`}>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/o-nama" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
         <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/blog-posts" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
