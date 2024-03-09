@@ -8,7 +8,7 @@ const RootLayout = ({ children }) => {
 
     return (
         <>
-            <header className="overflow-hidden">
+            <header>
                 <Topbar />
                 <Navbar />
             </header>
