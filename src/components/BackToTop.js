@@ -31,7 +31,7 @@ const BackToTop = () => {
     return (
         showButton && (
             <button
-                className="fixed bottom-10 right-6 bg-white text-primary border-2 border-primary text-xl rounded-[50px] py-3 px-4 cursor-pointer transition duration-300
+                className="fixed bottom-10 right-6 bg-white text-primary border-2 border-primary text-xl rounded-[50px] py-3 px-4 cursor-pointer transition duration-300 z-50
                  hover:bg-primary hover:text-white hover:border-white hover:scale-125"
                 onClick={scrollToTop}>
                 <FontAwesomeIcon icon={faChevronUp} className="w-6 h-8" style={{paddingTop: '2px'}}/>

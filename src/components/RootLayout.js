@@ -12,7 +12,7 @@ const RootLayout = ({ children }) => {
                 <Topbar />
                 <Navbar />
             </header>
-            <main>
+            <main className="overflow-hidden">
                 {children}
             </main>
             <footer>
