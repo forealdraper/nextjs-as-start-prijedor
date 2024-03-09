@@ -27,7 +27,7 @@ const Navbar = () => {
   }, [checkDevice, isActive])
 
   return (
-    <Wrap extendClassName={`flex flex-row gap-x-20 justify-between py-8 relative`}>
+    <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative border-2 border-red-600`}>
       <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200} ></Image>
       {windowWidth < 1280 && (
         <button type="button" onClick={toggleNavbar}>
