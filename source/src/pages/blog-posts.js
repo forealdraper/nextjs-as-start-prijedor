@@ -12,21 +12,21 @@ const Blog_Posts = () => {
           <Card 
             src={"/blog1.jpg"}
             alt={"blog1"}
-            href={"/"}
+            href={"/2022/07/11/saobracajni-bonton-i-odgovornost-kao-preduslovi-za-bezbjednu-voznju"}
             h5={"SAOBRAĆAJNI BONTON I ODGOVORNOST KAO PREDUSLOVI ZA BEZBJEDNU VOŽNJU"}
             p={"Svi smo svjesni činjenice da niko od nas nije savršen vozač. Koliko god bilo vozačko iskustvo za nama, postoji “onaj jedan” trenutak nepažnje prema drugim"}
           />
           <Card 
             src={"/blog2.png"}
             alt={"blog2"}
-            href={"/"}
+            href={"/2022/07/11/3-savjeta-za-bezbedno-putovanje-automobilom"}
             h5={"3 SAVJETA ZA BEZBEDNO PUTOVANJE AUTOMOBILOM"}
             p={"Nakon uspješno završene obuke u auto školi, većina razmišlja kako će samostalno krenuti na putovanje sa svojim automobilom. Ukoliko se spremate za ljetovanje ili planirate putovanje"}
           />
           <Card 
             src={"/blog3.jpg"}
             alt={"blog3"}
-            href={"/"}
+            href={"/2022/07/11/kako-iz-prvog-pokusaja-poloziti-vozacki-ispit"}
             h5={"KAKO IZ PRVOG POKUŠAJA POLOŽITI VOZAČKI ISPIT"}
             p={"Dobijanje vozačke dozvole je uzbudljiv poduhvat i iskustvo koje mijenja život, ali je i velika odgovornost. Polaganje vozačkog ispita može biti malo stresno, ali postoje"}
           />
@@ -35,14 +35,14 @@ const Blog_Posts = () => {
         <Card 
             src={"/blog4.jpg"}
             alt={"blog4"}
-            href={"/"}
+            href={"/2022/07/11/savjeti-za-voznju-u-razlicitim-vremenskim-uslovima"}
             h5={"SAVJETI ZA VOŽNJU U RAZLIČITIM VREMENSKIM USLOVIMA"}
             p={"Uspješno ste položili vozački ispit i sad imate slobodu da se krećete na četiri točka sa svojom vozačkom dozvolom. Ako za vrijeme obuke niste imali"}
           />
           <Card 
             src={"/blog5.jpg"}
             alt={"blog5"}
-            href={"/"}
+            href={"/2022/06/01/sta-treba-da-znate-ukoliko-ste-pali-vozacki-ispit"}
             h5={"ŠTA TREBA DA ZNATE UKOLIKO STE PALI VOZAČKI ISPIT?"}
             p={"Nije nimalo prijatno ukoliko na završnom testu vožnje ne prođete onako kako ste očekivali. Svakako Vaš neuspjeh ne treba da bude razlog da na samom"}
           />

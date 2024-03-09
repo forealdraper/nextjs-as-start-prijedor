@@ -9,7 +9,7 @@ const Page = () => {
       <Wrap extendClassName="mt-8 lg:mt-16 lg:mb-16">
         <h1 className="text-4xl lg:text-[60px] text-center mb-8 lg:mb-16 lg:leading-[60px]">SAOBRAĆAJNI BONTON I ODGOVORNOST KAO PREDUSLOVI ZA BEZBJEDNU VOŽNJU</h1>
         <BlogPost src="/blog1.jpg" alt="blog1" date="July 11, 2022">
-          <div className="flex flex-col gap-y-6">
+          <div className="flex flex-col gap-y-8">
             <p className="pt-6">Svi smo svjesni činjenice da niko od nas nije savršen vozač. Koliko god bilo vozačko iskustvo za nama, postoji “onaj jedan” trenutak nepažnje prema drugim učesnicima u saobraćaju koji se svakom vozaču bar jednom desio. Bez obzira da li su kratka distanca između dva vozila, duga svijetla ili preticanje rezultat nervoze ili pada koncentracije, imajte na umu da je život u pitanju vaš ili drugog učesnika u saobraćaju.</p>
             <p>Način života, stres i jurnjava u gradskim gužvama je gotovo suzbila ljubav ka vožnji. Nepropisno preticanje, sitna grebnja, sviranje na semaforu. Sve su ovo rezultati velikog stresa među vozačima a vrlo često, nažalost i slabog poznavanja saobraćajnih propisa prvenstva prolaza.</p>
             <p>Ipak, sve ovo nije opravdanje za bahatu i nesavjesnu vožnju koja vrlo lako može preći i u opasnu vožnju.</p>
