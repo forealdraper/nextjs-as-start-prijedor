@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative`}>
-      <Image className="sheen-img hover:cursor-pointer" src="/autofinal.png" alt="Logo Image" width={windowWidth > 576 ? 340 : 150} height={windowWidth > 576 ? 340 : 200} ></Image>
+      <img className={`${windowWidth > 576 ? "h-16 w-60" : "h-12 w-40"} hover:cursor-pointer `} src="/autofinal.png" alt="Logo Image" ></img>
       {windowWidth < 1280 && (
         <button type="button" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={faBars} className="w-8 pr-2" />
