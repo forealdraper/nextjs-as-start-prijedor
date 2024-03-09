@@ -15,7 +15,7 @@ const InfoBar = () => {
   }, [checkDevice])
 
   return (
-    <div style={{ backgroundImage: `url('/tt-foter-bg.jpg')` }} className="lg:py-8 text-white mt-8 lg:mt-0">
+    <div style={{ backgroundImage: `url('/tt-foter-bg.jpg')` }} className="lg:py-8 text-white mt-5 lg:mt-0">
       <Wrap extendClassName={"flex flex-row justify-between"}>
         {windowWidth < 1280 ? (
           <ResponsiveCarousel>
