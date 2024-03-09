@@ -8,11 +8,11 @@ const RootLayout = ({ children }) => {
 
     return (
         <>
-            <header>
+            <header className="overflow-hidden">
                 <Topbar />
                 <Navbar />
             </header>
-            <main className="overflow-hidden">
+            <main>
                 {children}
             </main>
             <footer>
