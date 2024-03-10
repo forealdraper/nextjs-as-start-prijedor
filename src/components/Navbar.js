@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import useCheckDevice from '@/custom-hooks/CheckDevice'
 import Link from 'next/link'
 import Wrap from './Wrap'
-import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -28,7 +27,9 @@ const Navbar = () => {
 
   return (
     <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative`}>
-      <img className={`${windowWidth > 576 ? "h-16 w-60" : "h-12 w-40"} hover:cursor-pointer `} src="/autofinal.png" alt="Logo Image" ></img>
+      <Link href="/">
+        <img className={`${windowWidth > 576 ? "h-16 w-60" : "h-12 w-40"} hover:cursor-pointer `} src="/autofinal.png" alt="Logo Image" ></img>
+      </Link>
       {windowWidth < 1280 && (
         <button type="button" onClick={toggleNavbar}>
           <FontAwesomeIcon icon={faBars} className="w-8 pr-2" />

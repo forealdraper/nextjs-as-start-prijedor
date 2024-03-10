@@ -15,9 +15,9 @@ const Footer = () => {
   return (
     <div style={{ backgroundImage: `url('/tt-foter-bg.jpg')` }}>
       <Wrap extendClassName={"flex flex-1 flex-col lg:flex-row justify-between gap-y-8 py-8 text-tertiary text-center lg:text-left"}>
-        <div>
+        <Link href="/">
           <Image src="/autofinal.png" className="w-full hover:cursor-pointer" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200}></Image>
-        </div>
+        </Link>
         <div className="flex flex-col lg:flex-row lg:justify-around lg:gap-x-14 items-center lg:items-start gap-y-4 font-bold">
           <div>
             <h4 className="text-xl lg:pb-2">Adresa</h4>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </Wrap>
       <Wrap extendClassName="text-center lg:text-left text-lg text-tertiary pb-8">
-        <p>© 2022 Auto škola Prijedor</p>
+        <p>© 2024 Auto Škola Prijedor</p>
       </Wrap>
     </div>
   )
