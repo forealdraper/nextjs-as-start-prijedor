@@ -30,7 +30,7 @@ const Topbar = () => {
                         <FontAwesomeIcon icon={faLocationDot} color={`${windowWidth < 1280 ? "#403c3c" : "white"}`} className="h-4" />
                         <p>Branislava Nušića 1, Prijedor 79101</p>
                     </div>
-                    <Link href="tel: 065/529-314" className="flex gap-x-3 justify-center items-center">
+                    <Link title="Telefon" href="tel: 065/529-314" className="flex gap-x-3 justify-center items-center">
                         <FontAwesomeIcon icon={faPhoneVolume} color={`${windowWidth < 1280 ? "#403c3c" : "white"}`} className="h-4" />
                         <p>065/529-314</p>
                     </Link>
@@ -39,10 +39,10 @@ const Topbar = () => {
                         <p> 08:00 - 14:00 PM Pon - Sub</p>
                     </div>
                     <div className="flex gap-x-6 justify-center items-center">
-                        <Link href="https://www.facebook.com/asstartprijedor/" target="blank">
+                        <Link title="Link za facebook" href="https://www.facebook.com/asstartprijedor/" target="blank">
                             <FontAwesomeIcon icon={faFacebookF} color={`${windowWidth < 1280 ? "#403c3c" : "white"}`} className="h-4" />
                         </Link>
-                        <Link href="https://www.instagram.com/autoskolastart.pd" target="blank">
+                        <Link title="Link za instagram" href="https://www.instagram.com/autoskolastart.pd" target="blank">
                             <FontAwesomeIcon icon={faInstagram} color={`${windowWidth < 1280 ? "#403c3c" : "white"}`} className="h-5 pt-1" />
                         </Link>
                     </div>

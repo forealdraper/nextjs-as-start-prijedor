@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div style={{ backgroundImage: `url('/tt-foter-bg.jpg')` }}>
       <Wrap extendClassName={"flex flex-1 flex-col lg:flex-row justify-between gap-y-8 py-8 text-tertiary text-center lg:text-left"}>
-        <Link href="/">
+        <Link title="Logo" href="/">
           <Image src="/autofinal.png" className="w-full hover:cursor-pointer" alt="Logo Image" width={windowWidth > 576 ? 340 : 200} height={windowWidth > 576 ? 340 : 200}></Image>
         </Link>
         <div className="flex flex-col lg:flex-row lg:justify-around lg:gap-x-14 items-center lg:items-start gap-y-4 font-bold">
@@ -34,16 +34,17 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex flex-col justify-around items-center lg:items-end text-white opacity-90'>
-          <Link href="/" className="hover:text-tertiary transition duration-300">Početna</Link>
-          <Link href="/o-nama" className="hover:text-tertiary transition duration-300">O Nama</Link>
-          <Link href="/blog-posts" className="hover:text-tertiary transition duration-300">Blog</Link>
-          <Link href="/vozni-park" className="hover:text-tertiary transition duration-300">Vozni park</Link>
-          <Link href="/frequently-asked-questions" className="hover:text-tertiary transition duration-300">Česta pitanja</Link>
-          <Link href="/kontakt" className="hover:text-tertiary transition duration-300">Kontakt</Link>
+          <Link title="Početna" href="/" className="hover:text-tertiary transition duration-300">Početna</Link>
+          <Link title="O Nama" href="/o-nama" className="hover:text-tertiary transition duration-300">O Nama</Link>
+          <Link title="Blog" href="/blog-posts" className="hover:text-tertiary transition duration-300">Blog</Link>
+          <Link title="Vozni park" href="/vozni-park" className="hover:text-tertiary transition duration-300">Vozni park</Link>
+          <Link title="Česta pitanja" href="/frequently-asked-questions" className="hover:text-tertiary transition duration-300">Česta pitanja</Link>
+          <Link title="Kontakt" href="/kontakt" className="hover:text-tertiary transition duration-300">Kontakt</Link>
         </div>
       </Wrap>
       <Wrap extendClassName="text-center lg:text-left text-lg text-tertiary pb-8">
-        <p>© 2024 Auto Škola Prijedor</p>
+        <p>© 2025 Auto Škola Prijedor</p>
+        <Link title="Thuderwave digital agencija" href="https://www.thunderwavedigital.com" className="hover:text-tertiary transition duration-300">Sajt kreirao ThunderWave Digital</Link>
       </Wrap>
     </div>
   )

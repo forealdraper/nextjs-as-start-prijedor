@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <Wrap extendClassName={`flex flex-row lg:gap-x-20 justify-between py-8 relative`}>
-      <Link href="/">
+      <Link title="Logo" href="/">
         <img className={`${windowWidth > 576 ? "h-16 w-60" : "h-12 w-40"} hover:cursor-pointer `} src="/autofinal.png" alt="Logo Image" ></img>
       </Link>
       {windowWidth < 1280 && (
@@ -37,13 +37,13 @@ const Navbar = () => {
       )}
       <nav className={`transform transition duration-300 ${windowWidth >= 1280 ?
         "flex flex-row gap-x-10 items-center" :
-        `absolute top-[140px] left-0 flex flex-col z-50 mx-0 px-0 bg-white h-[100vh] w-full ${!isActive ? 'translate-x-full hidden' : 'translate-x-0 block'}`}`}>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/o-nama" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/blog-posts" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/vozni-park" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>VOZNI PARK</Link>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/frequently-asked-questions" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>ČESTA PITANJA</Link>
-        <Link onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/kontakt" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>KONTAKT</Link>
+        `fixed top-[140px] left-0 flex flex-col z-50 mx-0 px-0 bg-white h-[100vh] w-full ${!isActive ? 'translate-x-full' : 'translate-x-0'}`}`}>
+        <Link title="Pocetna" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>POČETNA</Link>
+        <Link title="O nama" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/o-nama" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>O NAMA</Link>
+        <Link title="Blog" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/blog-posts" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>BLOG</Link>
+        <Link title="Vozni park" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/vozni-park" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>VOZNI PARK</Link>
+        <Link title="Pitanja" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/frequently-asked-questions" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>ČESTA PITANJA</Link>
+        <Link title="Kontakt" onClick={windowWidth < 1280 ? toggleNavbar : ""} href="/kontakt" className={`${windowWidth < 1280 ? "my-link-mobile" : "my-link"}`}>KONTAKT</Link>
       </nav>
     </Wrap>
   )
