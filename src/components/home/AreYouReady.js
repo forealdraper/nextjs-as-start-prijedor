@@ -9,14 +9,14 @@ const AreYouReady = () => {
         <h1 className="text-4xl lg:text-[60px] font-bold mb-8 lg:mb-12">
           Da li ste spremni?
         </h1>
-        <p className="mb-8 lg:mb-12">
+        <p>
           <strong>Auto škola Start Prijedor</strong> vam nudi visokokvalitetnu obuku za
           vozače svih kategorija, uključujući A, B, C1, C i CE, uz upotrebu
           novih i bezbjednih vozila koja garantiraju sigurno i efikasno učenje.
           Naša obuka je prilagođena kako početnicima, tako i vozačima koji žele
           obnoviti svoje znanje i vještine.
         </p>
-        <p className="mb-8 lg:mb-12">
+        <p>
           Osim toga, omogućavamo <em>fleksibilno plaćanje na više rata</em> kako
           bismo olakšali vašu obuku i učinili je pristupačnijom. Takođe, nudimo
           mogućnost dopunske obuke za neaktivne vozače, kako na našem vozilu,
