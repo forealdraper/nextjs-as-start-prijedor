@@ -6,12 +6,12 @@ const O_Nama = () => {
   return (
     <>
       <Head>
-        <title>O nama - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <title>O nama - Auto Škola Start Prijedor - Najbolja Auto Škola</title>
         <link rel="canonical" href="https://asstartprijedor.com/o-nama/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index"></meta>
-        <meta property="og:title" content="O nama - Auto Škola Start Prijedor - Driving School Start Prijedor" />
-        <meta property="og:description" content="O Nama Auto škola Start je osnovana u Prijedoru 1997. godine i jedna je od najstarijih auto škola u gradu. Auto škola Start konstanto radi na usavršavanju obuke za vozače, te Vam garantujemo stručne i motivisane istruktore koji će se potruditi da svaki kandidat postane dobar i samostalan vozač. Smatramo da je zadovoljan kandidat najbolja [&hellip;]" />
+        <meta property="og:title" content="O nama - Auto Škola Start Prijedor - Najbolja Auto Škola" />
+        <meta property="og:description" content="Auto škola Start je osnovana u Prijedoru 1997. godine. Konstanto radimo na usavršavanju obuke za vozače, te Vam garantujemo stučne i motivisane istruktore." />
         <meta property="og:url" content="https://asstartprijedor.com/o-nama/" />
       </Head>
 

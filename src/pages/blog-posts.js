@@ -7,11 +7,11 @@ const Blog_Posts = () => {
   return (
     <>
       <Head>
-        <title>Blog - Auto Škola Start Prijedor - Driving School Start Prijedor</title>
+        <title>Blog - Auto Škola Start Prijedor - Najbolja Auto Škola</title>
         <link rel="canonical" href="https://asstartprijedor.com/blog-posts/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index"></meta>
-        <meta property="og:title" content="Blog - Auto Škola Start Prijedor - Driving School Start Prijedor" />
+        <meta property="og:title" content="Blog - Auto Škola Start Prijedor - Najbolja Auto Škola" />
         <meta property="og:url" content="https://asstartprijedor.com/blog-posts/" />
       </Head>
 
